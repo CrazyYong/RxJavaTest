@@ -1,4 +1,4 @@
-package com.czyapp.rxjavatest;
+package com.czyapp.rxjavatest.java_rx;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
  * Created by czy on 2017/12/18.
  */
 
-public class ConcreteWatched implements Watched{
+public class ConcreteWatched implements Watched {
 private List<Watcher> list = new ArrayList<>();
 
     @Override

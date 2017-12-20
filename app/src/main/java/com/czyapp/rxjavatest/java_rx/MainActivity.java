@@ -1,7 +1,9 @@
-package com.czyapp.rxjavatest;
+package com.czyapp.rxjavatest.java_rx;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import com.czyapp.rxjavatest.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         xiaoming.addwatcher(watcher3);
 
         xiaoming.notifywatchers("我要偷东西");
+
+
+
 
     }
 }

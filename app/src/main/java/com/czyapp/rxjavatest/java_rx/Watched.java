@@ -1,4 +1,4 @@
-package com.czyapp.rxjavatest;
+package com.czyapp.rxjavatest.java_rx;
 
 /**
  * Created by czy on 2017/12/18.
