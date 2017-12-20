@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -26,6 +27,13 @@ public class FiveActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         button = (Button) this.findViewById(R.id.button);
         username = (EditText) this.findViewById(R.id.editText);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
         dialog = new ProgressDialog(this);
         dialog.setTitle("login......");
